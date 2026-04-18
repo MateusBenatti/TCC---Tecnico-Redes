@@ -1,0 +1,337 @@
+.teste {
+	border: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "lucida calligraphy", "Times New Roman"; /*COLOQUE A FONTE AQUI*/
+}
+
+body {
+	background-image: url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container {
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+}
+
+#cabecalho {
+	background-color:#5C3503/*#1B5E20*/;
+	width: 100%; /* Largura */
+	height: 220px; /* Altura */
+	color:white;
+	float: left;
+
+}
+
+.login{
+	color: white;
+	text-align: center;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#div_img {
+	float: left;
+	width: auto;
+}
+
+#img_camping {
+	height: 205px; 
+	width: 205px;
+	margin: 7 7 auto;
+}
+
+#texto {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+#menu {
+	background-color: #43A047;
+	width: 25%;
+	height: 723px;
+	float: left;
+}
+
+
+.m_left {
+	margin-left: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+ul {
+	margin-left: 60px;
+	margin-top: 20px; 
+	list-style-type: none;
+	list-style: none;
+	align-items: left;
+}
+
+ul li{
+	align-items: left;
+}
+
+ul li a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+li {
+	margin-top: 10px;
+}
+
+#conteudo {
+	background-color: #846740/*#4CAF50*/;
+	width: 75%;
+	height: auto;
+	float: right;
+
+}
+
+#adimim2{
+	float: left;
+	height: auto;
+	width: auto;
+}
+
+#adimim{
+	float: left;
+	margin: auto;
+	color: #012B41;
+	
+}
+
+#especial{
+}
+
+#cadastro{
+	float: right;
+	margin: 195px 10px auto;
+}
+
+#rodape {
+	background-color: #5C3503/*#2E7D32*/;
+	width: 100%;
+	height: auto;
+	color: white/*#092C01*/;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#rod_email {
+	margin-top: 10px;
+}
+
+#rod_telefone {
+	margin-top: 10px;
+}
+
+#rod_mensagem {
+	margin-top: 10px;
+}
+
+li {
+	font-size: 20px;
+}
+
+
+a:active {
+	background-color: lightgreen;
+}
+
+a:visited {
+	color:white;
+}
+
+a:link {
+	color:white;
+}
+
+#titulo{
+	font-size: 45px;
+}
+
+.div_voltar{
+	height: auto;
+	width: auto;
+	float: left;
+	margin: 0 90 auto;
+}
+
+.voltar{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.link_produto{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.img_produto{
+	float: left;
+	height: 400px;
+	width: 230px;
+	margin: 0 25px;
+}
+
+.img_imagem{
+	height: 200px;
+	width: 200px;
+	/*border: 2px solid black;*/
+}
+
+
+/* ATÉ AQUI EU MUDEI | PEDRO*/
+
+/* Integrantes */
+
+#conteudo2 {
+	background-color: #4CAF50;
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+.img_left {
+	float: left;
+	height: 35%;
+	width: 25%;
+	margin-left: 20px;
+}
+
+.img_right {
+	float: right;
+	height: 35%;
+	width: 25%;
+	margin-right: 20px;
+}
+
+.tamanho_imagem {
+	height: 100%;
+	width: 100%;
+}
+
+.p_integrantes {
+	height: 35%;
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+}
+
+#h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 45px;
+}
+
+#ajustar {
+	padding-bottom: 20px;
+}
+
+/*Historias*/
+#p3 {
+	font-size:  35px;
+}
+#p4 {
+	font-size:  45px;
+}
+
+/* Cutelaria */
+.conteudo_p {
+	float: center;
+	height: auto;
+	width: 1000px;
+	margin: 0 220px auto;
+}
+
+.titulo_p {
+	text-align: center;
+}
+div.img_produto {
+    margin: 16 22px auto;
+    border: 2px solid black;
+    float: center;
+    width: 230px;
+    height: 320px;
+    background-color: #29732C;
+}
+
+div.img_produto:hover {
+	border: 2px solid darkgray;
+}
+
+	div.img_produto img {
+	width: 100%;
+	height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+	text-align: left;
+}
+
+p{
+	color: white;
+}
+
+.titulo_nome{
+	text-align: center;
+	color: white;
+}
+	
+
+
+/*@media screen and (min-width: 100px){
+	.conteudo_p {
+		float: center;
+		height: auto;
+		width: 1000px;
+		margin: 0 220px auto;
+	}
+
+
+	.titulo_p {
+		text-align: center;
+	}
+	div.img_produto {
+    	margin: 16 22px auto;
+    	border: 2px solid #ccc;
+    	float: center;
+    	width: 230px;
+    	height: 280px;
+    	background-color: #29732C;
+	}
+
+	div.img_produto:hover {
+    	border: 2px solid #777;
+	}
+
+	div.img_produto img {
+    	width: 100%;
+    	height: 200px;
+	}
+
+	div.desc {
+	    padding: 15px;
+	    text-align: center;
+	}
+	
+}*/

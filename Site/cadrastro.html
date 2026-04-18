@@ -1,0 +1,116 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="trabalholairce.css">
+
+	<script type="text/javascript">
+	  function validar(){
+	  	var nome = from1.nome.value;
+	  	if (nome == ""){
+	  		alert("Preencha o campo Nome!");
+	  		return false;}
+
+	  	var data = from1.data.value;
+	  	else if (data == ""){
+	  		alert("Preencha o campo Data!");
+	  		return false;}
+
+	  	var cpf = from1.cpf.value;
+	  	else if (cpf == ""){
+	  		alert("Prenencha o campo CPF!");
+	  		return false;}
+
+	  	var email = from1.email.value;
+	    else if (email == "" || email.indexOf("@") == -1){
+	  		alert("Prenencha o campo Email corretamente!");
+	  		return false;}
+
+	  	var senha = from1.senha.value;
+	  	else if (senha == "" || senha.length < 4 || senha.length > 8){
+          alert("Digite uma senha de 4 a 8 caracteries");
+	  	   return false;}
+
+        var conf_senha = from1.conf_senha.value;
+		else if (conf_senha != senha){ 	
+             alert("As senhas não se corresponden");
+                return false;}
+
+
+	  	var celular = from1.celular.value;
+	  	else if (celular == "" ){
+          alert("Preencha o Campo Celular");
+	  	   return false;}
+
+	  	    var cep = from1.cep.value;
+	  	else if (cep == "" ){
+          alert("Preencha o Campo Cep");
+	  	   return false;}
+
+	  	   var endereco = from1.endereco.value;
+	  	else if (endereco == ""){
+	  		alert("Preencha o campo Endereço!");
+	  		return false;}
+
+	</script>
+</head>
+<body>
+	<div id="container">
+
+		<!-- CABEÇALHO -->
+		<div id="cabecalho">
+			<div id="div_img">
+				<a href="trabalho lairce.html"><img id="img_camping" src="download.jpg"></a>
+			</div>
+			<div id="texto">
+				<h1 id="titulo">CAMPING</h1>
+				<p>Seguindo sempre os seus passos!</p>
+			</div>
+		</div>
+
+
+	<div id="conteudo2">
+		<h1 class="login">Cadastro</h1>
+
+		<form name="from1" method="post" class="formulario">
+		<label>Nome :</label>
+		<input type="test" name="nome"><br>
+		<label>Data de Nascimento :</label>
+		<input type="text"  name="data"><br>
+		<label>CPF :</label>
+		<input type="text"  name="data"><br>
+        <label>Email :</label>
+		<input type="text" name="email"><br>
+		<label>Senha :</label>
+		<input type="password"   name="senha"><br>
+		<label>Confirmar Senha :</label>
+		<input type="password"  name="conf_senha"><br>
+		<label>Celular :</label>
+		<input type="text"  name="celular"><br>
+		<label>CEP :</label>
+		<input type="text"  name="cep"><br>
+		<label>Endereço :</label>
+		<input type="text"  name="endereco"><br>
+		
+
+
+
+		<input type="submit" onclick="return validar()">
+		
+	    </form>
+	    <div id="div_voltar">
+			<a href="trabalho lairce.html" class="voltar">Página Inicial</a>
+		</div>
+    </div>
+			
+		<div id="rodape">
+			<p id="rod_email">E-mail: camping0123@gmail.com</p>
+			<p id="rod_telefone">Telefones: (17)3569-1258 | (17)997258458</p>
+			<p id="rod_mensagem">MUITO OBRIGADO PELA PREFERÊNCIA :)</p>	
+		</div>
+		
+	</div>
+
+
+</body>
+</html>

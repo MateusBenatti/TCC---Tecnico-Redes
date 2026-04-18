@@ -1,0 +1,78 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Adimim</title>
+	<link rel="stylesheet" type="text/css" href="trabalholairce.css">
+	<script type="text/javascript">
+		function validar(){
+			var cod2 = cod2.form3.value;
+			if (cod2 == ""){
+				alert("Preencha o campo Código do Produto!");
+				return false;
+			}
+
+			var quant = quant.form3.value;
+			if (quant == ""){
+				alert("Preencha o campo Quantidade!");
+				return false;
+			}
+
+			var valor = valor.form3.value;
+			if (valor == ""){
+				alert("Preencha o campo Valor!");
+				return false;
+			}
+
+			var desc2 = desc2.form3.value;
+			if (desc2 == ""){
+				alert("Preencha o campo Descrição!");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+<div id="container">
+
+		<!-- CABEÇALHO -->
+		<div id="cabecalho">
+			<div id="div_img">
+				<a href="trabalho lairce.html"><img id="img_camping" src="download.jpg"></a>
+			</div>
+			<div id="texto">
+				<h1 id="titulo">CAMPING</h1>
+				<p>Seguindo sempre os seus passos!</p>
+			</div>
+		</div>
+
+
+	<div id="conteudo2">
+		<h1 class="login">Pedido</h1>
+
+		<form name="from3" method="post" class="formulario">
+		<label>Código do Produto:</label>
+		<input type="test" name="cod2"><br>
+		<label>Quantidade :</label>
+		<input type="text"  name="quant"><br>
+		<label>Valor do Pedido :</label>
+		<input type="text" name="valor"><br>
+		<label>Descrição :</label>
+		<input type="text"  name="desc2"><br>
+
+		<input type="submit" onclick="return validar()">		
+	    </form>
+
+	    <div id="div_voltar">
+			<a href="trabalho lairce.html" class="voltar">Página Inicial</a>
+		</div>
+    </div>
+			
+		<div id="rodape">
+			<p id="rod_email">E-mail: camping0123@gmail.com</p>
+			<p id="rod_telefone">Telefones: (17)3569-1258 | (17)997258458</p>
+			<p id="rod_mensagem">MUITO OBRIGADO PELA PREFERÊNCIA :)</p>	
+		</div>
+		
+	</div>
+</body>
+</html>
